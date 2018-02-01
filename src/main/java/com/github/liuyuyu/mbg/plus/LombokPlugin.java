@@ -47,7 +47,7 @@ public class LombokPlugin extends PluginAdapter {
 
 
     private void addLombokAnnotation(TopLevelClass topLevelClass, IntrospectedTable introspectedTable){
-        topLevelClass.addImportedType("import lombok.*");
+        topLevelClass.addImportedType("lombok.*");
         topLevelClass.addAnnotation("@Data");
     }
 
