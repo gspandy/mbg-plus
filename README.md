@@ -9,15 +9,6 @@ Mybatis-Generator 的插件集合
 
 ### 开始使用
 在pom.xml增加依赖
-```
-<dependency>
-    <groupId>com.github.liuyuyu</groupId>
-    <artifactId>mbg-plus</artifactId>
-    <version>1.0</version>
-</dependency>
-```
-
-pom.xml
 ```xml
     <plugin>
         <groupId>org.mybatis.generator</groupId>
@@ -37,7 +28,7 @@ pom.xml
             <dependency>
                 <groupId>com.github.liuyuyu</groupId>
                 <artifactId>mbg-plus</artifactId>
-                <version>${mbg.version}</version>
+                <version>1.0</version>
             </dependency>
         </dependencies>
     </plugin>
