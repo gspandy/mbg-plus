@@ -8,10 +8,13 @@ Mybatis-Generator 的插件集合
 - [x] 清空ResultMap
 
 ### 开始使用
-
-暂时没有上传到仓库，需要先安装到本地
+在pom.xml增加依赖
 ```
-mvn clean install -Dmaven.test.skip=true
+<dependency>
+    <groupId>com.github.liuyuyu</groupId>
+    <artifactId>mbg-plus</artifactId>
+    <version>1.0</version>
+</dependency>
 ```
 
 pom.xml
@@ -30,11 +33,6 @@ pom.xml
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>tk.mybatis</groupId>
-                <artifactId>mapper</artifactId>
-                <version>${mapper.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.liuyuyu</groupId>
